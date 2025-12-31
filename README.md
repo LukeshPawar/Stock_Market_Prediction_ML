@@ -56,26 +56,6 @@ Streamlit
 ├── Stock Predictions Model.keras           # Trained LSTM model
 ├── README.md                               # Project documentation
 
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/stock-market-prediction.git
-cd stock-market-prediction
-
-2️⃣ Install Dependencies
-pip install numpy pandas yfinance scikit-learn matplotlib streamlit tensorflow keras
-
-3️⃣ Update Model Path
-
-Make sure the model path in app.py points to the correct location:
-
-model = load_model('Stock Predictions Model.keras')
-
-▶️ Run the Application
-streamlit run app.py
-
-
-The app will open automatically in your browser.
-
 🖥️ How It Works
 
 User enters a stock symbol (e.g., GOOG, AAPL, TSLA)
